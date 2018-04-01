@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Claire's Travel Journal</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<style>
+.menu-ui {
+  background:#fff;
+  position:absolute;
+  top:10px;right:10px;
+  z-index:1;
+  border-radius:3px;
+  width:120px;
+  border:1px solid rgba(0,0,0,0.4);
+  font-family:arial;
+  }
+  .menu-ui a {
+    font-size:13px;
+    color:#404040;
+    display:block;
+    margin:0;padding:0;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .menu-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .menu-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .menu-ui a:hover {
+      background:#f8f8f8;
+      color:#404040;
+      }
+
+.popup {
+  text-align:center;
+  }
+.popup .slideshow .image        { display:none; }
+.popup .slideshow .image.active { display:block; }
+.popup .slideshow img {
+  width:100%;
+  }
+.popup .slideshow .caption {
+  background:#eee;
+  padding:10px;
+  }
+.popup .cycle {
+  padding:10px 0 20px;
+  }
+  .popup .cycle a.prev { float:left; }
+  .popup .cycle a.next { float:right; }
+
+</style>
+
+<div id='map'></div>
+<div id='navigation' class='menu-ui'>
+  <a href='#' data-position='50.086157,14.416482'>Prague</a>
+  <a href='#' data-position='52.513722,13.392670'>Berlin</a>
+</div>
+
+<!-- jQuery is required for this example. -->
+<script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoidHJpYmFsbm9tYWRzIiwiYSI6InFEQzZzZ3MifQ.qkojGxZYJPwjKZe4AmUI5g';
+var map = L.mapbox.map('map', 'mapbox.streets');
+
+var myLayer = L.mapbox.featureLayer().addTo(map);
+
+var geoJson = {
+  type: 'FeatureCollection',
+  features: [{
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.412103, 52.515691]},
+      "properties": {
+          'title': 'Holiday Inn Express Alexanderplatz',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'lodging',
+          'marker-size': 'large',
+
+          // Store the image url and caption in an array.
+          'images': [
+            ['http://kibs.xyz/claire/IMG_1902.JPG','The room'],
+            ['http://kibs.xyz/claire/ESWE2298.JPG', 'View from the room'],
+          ]
+      }
+  },{
+      "type": "Feature",
+      "properties": {
+        "name": "Hampton by Hilton Berlin City West",
+        "title": "Hampton by Hilton Berlin City West",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "lodging",
+        'images':[['http://kibs.xyz/claire/IMG_2230.JPG','The room']],
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.325888,
+          52.505000
+        ]
+      }
+    },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.431860,52.502020]},
+      "properties": {
+          'title': 'Markthalle Neun',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'restaurant',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_2009.JPG', 'Bone.Berlin <br> Sausage stew'],
+          ['http://kibs.xyz/claire/IMG_2010.JPG', 'Rosa Canina Ice Cream <br> Currant ice cream: €1.40']]
+      }
+  },
+        {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.405167,
+          52.516608]},
+      "properties": {
+          'title': 'Georgbraeu Brauhaus',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'restaurant',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1905.JPG', 'Restaurant is located near the water in the Nikolaivertel'],
+          ['http://kibs.xyz/claire/IMG_1908.JPG', 'Half roasted duck with red cabbage and potato dumplings: €14.90']]
+      }
+  },
+        {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.336893,
+          52.515164]},
+      "properties": {
+          'title': 'Tiergartenquelle',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'restaurant',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1945.JPG', 'Cheese spatzle: €9.50'],
+          ['http://kibs.xyz/claire/IMG_1946.JPG', 'Crispy pork knuckle, sauerkraut & pan fried potatoes: €12']]
+      }
+  },
+        {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.377704,
+          52.516275]},
+      "properties": {
+          'title': 'Brandenburg Gate',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/DSC05388.JPG', 'Crowded all the time']]
+      }
+  },
+  {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.390391,
+          52.507443]},
+      "properties": {
+          'title': 'Checkpoint Charlie',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1925.JPG', '']]
+      }
+    },
+    {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.413084,
+          52.522320]},
+      "properties": {
+          'title': 'Alexanderplatz',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'shop',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1981.JPG', 'Square with shops, and \"Grillrunners\" selling bratwursts in a bun for €1.70']]
+      }
+    },
+    {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.401078,
+          52.519061]},
+      "properties": {
+          'title': 'Berlin Cathedral Church',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/DSC05407.JPG', 'Massive church']]
+      }
+  },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.409419,
+          52.520815]},
+      "properties": {
+          'title': 'Berliner Fernsehturm',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1939.JPG', 'TV Tower']]
+      }
+  },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.439695,
+          52.505022]},
+      "properties": {
+          'title': 'East Side Gallery',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'art-gallery',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/DSC05514.JPG', 'On the ground'],
+          ['http://kibs.xyz/claire/DSC05524.JPG', 'Iconic mural'],
+          ['http://kibs.xyz/claire/DSC05530.JPG', 'One of the newer murals']]
+      }
+  },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.392670,
+          52.513722]},
+      "properties": {
+          'title': 'Gendarmenmarkt',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1932.JPG', 'Beautiful square near Potsdamer Platz']]
+      }
+  },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.376187,
+          52.518620]},
+      "properties": {
+          'title': 'Reichstag Building',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1412.JPG', 'Inside the dome, reservations required'],
+          ['http://kibs.xyz/claire/DSC05439.JPG', 'Inside the dome, reservations required'],
+          ['http://kibs.xyz/claire/DSC05456.JPG', 'On the balcony, reservations required']]
+      }
+  },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.350119,
+          52.514543]},
+      "properties": {
+          'title': 'Victory Column',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/DSC05422.JPG', 'At night']]
+      }
+  },
+      {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.369402,
+          52.525084]},
+      "properties": {
+          'title': 'Berlin Hauptbahnhof',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'rail-metro',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_2042.JPG', 'Main railway station for Prague train and TXL bus connection'],
+          ['http://kibs.xyz/claire/IMG_2048.JPG', 'RitterSport chocolate display']]
+      }
+  },
+  {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.46,52.513]},
+      "properties": {
+          'title': 'Kreutzigerstraße Mural',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_2007.JPG', 'Colorful murals']]
+      }
+  },
+  {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.378,52.514]},
+      "properties": {
+          'title': 'Memorial to the Murdered Jews of Europe',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'monument',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1922.JPG', 'Block-long memorial']]
+      }
+  },
+  {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.39, 52.508]},
+      "properties": {
+          'title': 'Die Bude',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'fast-food',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_1929.JPG', 'Currywurst with Fries: €4.50']]
+      }
+  },
+  {
+      type: 'Feature',
+      "geometry": { "type": "Point", "coordinates": [13.39, 52.515]},
+      "properties": {
+          'title': 'Ritter Sport Chocolate Store',
+          'marker-color': '#3c4e5a',
+          'marker-symbol': 'shop',
+          'marker-size': 'large',
+          'images': [['http://kibs.xyz/claire/IMG_2242.JPG', 'Pick and Mix: €1.49/100g'],
+          ['http://kibs.xyz/claire/IMG_2239.JPG', 'One wall of selections: €1.05-1.29 for a 100g bar']]
+      }
+  },
+      {
+      "type": "Feature",
+      "properties": {
+        "title": "Hilton Prague",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "lodging",
+        'images': [['http://kibs.xyz/claire/IMG_2128.JPG', 'Treats at the executive lounge'],
+        ['http://kibs.xyz/claire/IMG_2129.JPG', 'Treats at the executive lounge'],
+        ['http://kibs.xyz/claire/IMG_2130.JPG', 'Treats at the executive lounge'],
+        ['http://kibs.xyz/claire/IMG_2218.JPG', 'Treats at the executive lounge'],
+        ['http://kibs.xyz/claire/IMG_2219.JPG', 'Treats at the executive lounge']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.439732,
+          50.092952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wenceslas Square",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/DSC05657.JPG', 'Shops and small vendors']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.427189,50.081747]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "title": "Dancing House",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/DSC05569.JPG', 'Famous piece of architecture']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.414179,50.075403]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "title": "Charles Bridge",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/DSC05644.JPG', 'Walking on the bridge']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.411437,50.086477]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "title": "Lennon Wall",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "art-gallery",
+        'images': [['http://kibs.xyz/claire/IMG_2148.JPG', 'Wall of graffiti']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.406792,50.086251]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "title": "La Republica",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "restaurant",
+        'images': [['http://kibs.xyz/claire/IMG_2124.JPG', 'Pilsner beef goulash with bread dumplings: 235 czk'],
+        ['http://kibs.xyz/claire/IMG_2125.JPG', 'Duck breast confit with potato pancakes: 269 czk']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.431, 50.089]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "title": "U Magistra Kelly",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "restaurant",
+        'images': [['http://kibs.xyz/claire/DSC05597.JPG', 'Exterior'],
+        ['http://kibs.xyz/claire/IMG_2165.JPG', 'Smoked duck breast with honey mustard dressing: 139 czk'],
+        ['http://kibs.xyz/claire/IMG_2166.JPG', 'Angus beef goulash: 119 czk'],
+        ['http://kibs.xyz/claire/IMG_2167.JPG', 'Grilled pork knuckle: 219 czk']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.397784,50.087588]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TRDELNIK",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "bakery",
+        'images': [['http://kibs.xyz/claire/IMG_2187.JPG', 'Chimney cake at Republic Square: 60 czk']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.429, 50.088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Republic Square",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/IMG_2099.JPG', 'Square with vendors and tram crossing']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.428, 50.088]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+        "title": "Havelské tržiště Market",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "shop",
+        'images': [['http://kibs.xyz/claire/IMG_2114.JPG', 'Market selling souviners and produce'],
+        ['http://kibs.xyz/claire/IMG_2111.JPG', 'Market selling souviners and produce']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.428, 50.088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kafka Statue",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/IMG_2108.JPG', 'Franz Kafka']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.421, 50.09]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "title": "Kafka Monument",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/IMG_2118.JPG', 'Rotating head']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.421,50.081]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kafka Museum",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "museum",
+        'images': [['http://kibs.xyz/claire/DSC05621.JPG', 'Outside the Kafka Museum'],
+        ['http://kibs.xyz/claire/DSC05622.JPG', 'Peeing Statue'],
+        ['http://kibs.xyz/claire/IMG_2173.JPG', 'Pothole cover']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.410508,50.087955]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Kaiser Wilhem Memorial Church",
+        "marker-color": "#3c4e5a",
+        "marker-symbol": "monument",
+        'images': [['http://kibs.xyz/claire/DSC05670.JPG', 'Juxtaposition of old and new']]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.335082,52.504818]
+      }
+    }]
+};
+
+
+// Add custom popup html to each marker.
+myLayer.on('layeradd', function(e) {
+    var marker = e.layer;
+    var feature = marker.feature;
+    var images = feature.properties.images
+    var slideshowContent = '';
+
+    for(var i = 0; i < images.length; i++) {
+        var img = images[i];
+
+        slideshowContent += '<div class="image' + (i === 0 ? ' active' : '') + '">' +
+                              '<a target=_blank href = ' + img[0] + '>' + '<img src="' + img[0] + '" />' + '</a>'
+                              + '<div class="caption">' + img[1] + '</div>' +
+                            '</div>';
+    }
+
+    // Create custom popup content
+    var popupContent =  '<div id="' + feature.properties.id + '" class="popup">' +
+                            '<h2>' + feature.properties.title + '</h2>';
+    
+    // do not show prev & next links if no images to show
+    if (images.length > 0){
+          popupContent += '<div class="slideshow">' +
+                                slideshowContent +
+                            '</div>';
+    // if only one image we do not want the next & prev links
+    if (images.length > 1) {
+      popupContent +=
+                            '<div class="cycle">' +
+                                '<a href="#" class="prev">&laquo; Previous</a>' +
+                                '<a href="#" class="next">Next &raquo;</a>' +
+                            '</div>'
+                        '</div>';
+    }
+         }                    
+                          
+
+    // http://leafletjs.com/reference.html#popup
+    marker.bindPopup(popupContent,{
+        closeButton: true,
+        minWidth: 320
+    });
+});
+
+// Add features to the map
+myLayer.setGeoJSON(geoJson);
+
+$('#map').on('click', '.popup .cycle a', function() {
+    var $slideshow = $('.slideshow'),
+        $newSlide;
+
+    if ($(this).hasClass('prev')) {
+        $newSlide = $slideshow.find('.active').prev();
+        if ($newSlide.index() < 0) {
+            $newSlide = $('.image').last();
+        }
+    } else {
+        $newSlide = $slideshow.find('.active').next();
+        if ($newSlide.index() < 0) {
+            $newSlide = $('.image').first();
+        }
+    }
+
+    $slideshow.find('.active').removeClass('active').hide();
+    $newSlide.addClass('active').show();
+    return false;
+});
+
+map.setView([50.101719, 10.729668], 5);
+document.getElementById('navigation').onclick = function(e) {
+    e.preventDefault();
+    var pos = e.target.getAttribute('data-position');
+    if (pos) {
+        var loc = pos.split(',');
+        map.setView(loc, 14);
+    }
+}
+</script>
+</body>
+</html>
