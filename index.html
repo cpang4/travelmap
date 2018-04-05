@@ -9,6 +9,8 @@
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
+  ...
+}
 </style>
 </head>
 <body>
@@ -67,8 +69,9 @@
 
 <div id='map'></div>
 <div id='navigation' class='menu-ui'>
-  <a href='#' data-position='50.086157,14.416482'>Prague</a>
-  <a href='#' data-position='52.513722,13.392670'>Berlin</a>
+  <a href='#' data-position='50.086157,14.416482' zoom='14'>Prague</a>
+  <a href='#' data-position='52.513722,13.392670' zoom='14'>Berlin</a>
+  <a href='#' data-position='35.686403, 139.737714' zoom='12.5'>Tokyo</a>
 </div>
 
 <!-- jQuery is required for this example. -->
@@ -88,12 +91,11 @@ var geoJson = {
           'title': 'Holiday Inn Express Alexanderplatz',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'lodging',
-          'marker-size': 'large',
 
           // Store the image url and caption in an array.
           'images': [
             ['http://kibs.xyz/claire/IMG_1902.JPG','The room'],
-            ['http://kibs.xyz/claire/ESWE2298.JPG', 'View from the room'],
+            ['http://kibs.xyz/claire/hotelview.JPG', 'View from the room'],
           ]
       }
   },{
@@ -120,7 +122,6 @@ var geoJson = {
           'title': 'Markthalle Neun',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'restaurant',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_2009.JPG', 'Bone.Berlin <br> Sausage stew'],
           ['http://kibs.xyz/claire/IMG_2010.JPG', 'Rosa Canina Ice Cream <br> Currant ice cream: €1.40']]
       }
@@ -133,7 +134,6 @@ var geoJson = {
           'title': 'Georgbraeu Brauhaus',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'restaurant',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_1905.JPG', 'Restaurant is located near the water in the Nikolaivertel'],
           ['http://kibs.xyz/claire/IMG_1908.JPG', 'Half roasted duck with red cabbage and potato dumplings: €14.90']]
       }
@@ -146,8 +146,7 @@ var geoJson = {
           'title': 'Tiergartenquelle',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'restaurant',
-          'marker-size': 'large',
-          'images': [['http://kibs.xyz/claire/IMG_1945.JPG', 'Cheese spatzle: €9.50'],
+          'images': [['http://kibs.xyz/claire/spatzle.JPG', 'Cheese spatzle: €9.50'],
           ['http://kibs.xyz/claire/IMG_1946.JPG', 'Crispy pork knuckle, sauerkraut & pan fried potatoes: €12']]
       }
   },
@@ -159,7 +158,6 @@ var geoJson = {
           'title': 'Brandenburg Gate',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/DSC05388.JPG', 'Crowded all the time']]
       }
   },
@@ -171,8 +169,7 @@ var geoJson = {
           'title': 'Checkpoint Charlie',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
-          'images': [['http://kibs.xyz/claire/IMG_1925.JPG', '']]
+          'images': [['http://kibs.xyz/claire/checkpoint.JPG', 'Checkpoint Charlie']]
       }
     },
     {
@@ -183,7 +180,6 @@ var geoJson = {
           'title': 'Alexanderplatz',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'shop',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_1981.JPG', 'Square with shops, and \"Grillrunners\" selling bratwursts in a bun for €1.70']]
       }
     },
@@ -195,7 +191,6 @@ var geoJson = {
           'title': 'Berlin Cathedral Church',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/DSC05407.JPG', 'Massive church']]
       }
   },
@@ -207,8 +202,7 @@ var geoJson = {
           'title': 'Berliner Fernsehturm',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
-          'images': [['http://kibs.xyz/claire/IMG_1939.JPG', 'TV Tower']]
+          'images': [['http://kibs.xyz/claire/tvtower.JPG', 'TV Tower']]
       }
   },
       {
@@ -219,7 +213,6 @@ var geoJson = {
           'title': 'East Side Gallery',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'art-gallery',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/DSC05514.JPG', 'On the ground'],
           ['http://kibs.xyz/claire/DSC05524.JPG', 'Iconic mural'],
           ['http://kibs.xyz/claire/DSC05530.JPG', 'One of the newer murals']]
@@ -233,7 +226,6 @@ var geoJson = {
           'title': 'Gendarmenmarkt',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_1932.JPG', 'Beautiful square near Potsdamer Platz']]
       }
   },
@@ -245,7 +237,6 @@ var geoJson = {
           'title': 'Reichstag Building',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_1412.JPG', 'Inside the dome, reservations required'],
           ['http://kibs.xyz/claire/DSC05439.JPG', 'Inside the dome, reservations required'],
           ['http://kibs.xyz/claire/DSC05456.JPG', 'On the balcony, reservations required']]
@@ -259,7 +250,6 @@ var geoJson = {
           'title': 'Victory Column',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/DSC05422.JPG', 'At night']]
       }
   },
@@ -271,9 +261,7 @@ var geoJson = {
           'title': 'Berlin Hauptbahnhof',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'rail-metro',
-          'marker-size': 'large',
-          'images': [['http://kibs.xyz/claire/IMG_2042.JPG', 'Main railway station for Prague train and TXL bus connection'],
-          ['http://kibs.xyz/claire/IMG_2048.JPG', 'RitterSport chocolate display']]
+          'images': [['http://kibs.xyz/claire/IMG_2042.JPG', 'Main railway station for Prague train and TXL bus connection']]
       }
   },
   {
@@ -283,7 +271,6 @@ var geoJson = {
           'title': 'Kreutzigerstraße Mural',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_2007.JPG', 'Colorful murals']]
       }
   },
@@ -294,7 +281,6 @@ var geoJson = {
           'title': 'Memorial to the Murdered Jews of Europe',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'monument',
-          'marker-size': 'large',
           'images': [['http://kibs.xyz/claire/IMG_1922.JPG', 'Block-long memorial']]
       }
   },
@@ -305,8 +291,7 @@ var geoJson = {
           'title': 'Die Bude',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'fast-food',
-          'marker-size': 'large',
-          'images': [['http://kibs.xyz/claire/IMG_1929.JPG', 'Currywurst with Fries: €4.50']]
+          'images': [['http://kibs.xyz/claire/currywurst.JPG', 'Currywurst with Fries: €4.50']]
       }
   },
   {
@@ -316,8 +301,7 @@ var geoJson = {
           'title': 'Ritter Sport Chocolate Store',
           'marker-color': '#3c4e5a',
           'marker-symbol': 'shop',
-          'marker-size': 'large',
-          'images': [['http://kibs.xyz/claire/IMG_2242.JPG', 'Pick and Mix: €1.49/100g'],
+          'images': [['http://kibs.xyz/claire/ritter.JPG', 'Pick and Mix: €1.49/100g'],
           ['http://kibs.xyz/claire/IMG_2239.JPG', 'One wall of selections: €1.05-1.29 for a 100g bar']]
       }
   },
@@ -468,7 +452,7 @@ var geoJson = {
         "title": "Kafka Statue",
         "marker-color": "#3c4e5a",
         "marker-symbol": "monument",
-        'images': [['http://kibs.xyz/claire/IMG_2108.JPG', 'Franz Kafka']]
+        'images': [['http://kibs.xyz/claire/kafka.JPG', 'Franz Kafka']]
       },
       "geometry": {
         "type": "Point",
@@ -503,19 +487,379 @@ var geoJson = {
         "coordinates": [14.410508,50.087955]
       }
     },
-     {
-      "type": "Feature",
-      "properties": {
-        "title": "Kaiser Wilhem Memorial Church",
-        "marker-color": "#3c4e5a",
-        "marker-symbol": "monument",
-        'images': [['http://kibs.xyz/claire/DSC05670.JPG', 'Juxtaposition of old and new']]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.335082,52.504818]
-      }
-    }]
+  {
+    "type": "Feature",
+    "properties": {
+      "title": "Kaiser Wilhem Memorial Church",
+      "marker-color": "#3c4e5a",
+      "marker-symbol": "monument",
+      "images": [['http://kibs.xyz/claire/DSC05670.JPG', 'Juxtaposition of old and new']]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [13.335082,52.504818]
+    }
+  },
+  // tokyo
+    {
+    "type": "Feature",
+    "properties": {
+      "title": "Hayashi",
+      "marker-color": "#3c4e5a",
+      "marker-symbol": "restaurant",
+      "images": [['http://kibs.xyz/claire/tokyo/IMG_1428.jpg', 'Ramen - ¥1100'],
+      ['http://kibs.xyz/claire/tokyo/IMG_1429.jpg', 'Exterior']]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.698,35.657]
+    }
+  },
+  {
+  "type": "Feature",
+  "properties": {
+    "title": "Gyoza no Fukuko Meguro",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1437.jpg', 'Gyoza, beansprout w/ meat, tofu, roasted garlic'],
+    ['http://kibs.xyz/claire/tokyo/gyoza.JPG', 'Lots of gyoza!'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1445.jpg', 'Exterior']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.695,35.647]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kagetsudo",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "bakery",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1455.jpg', 'Melonpan bun - 3 for ¥600'],
+    ['http://kibs.xyz/claire/tokyo/purpleyam.JPG', 'Purple sweet potato - ¥300'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1456.jpg', 'Exterior'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1459.jpg', 'Sign'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1461.jpg', 'Menu - melonpan buns and ice cream']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.795,35.715]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tsukushi Okonomiyaki",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1465.jpg', 'Japanese pancake \"Okonomiyaki\" - ¥1512 for both']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.794,35.713]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Meiji Jingu Shrine",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [['http://kibs.xyz/claire/tokyo/DSC05242.jpg', 'Entrance to the shrine area'],
+    ['http://kibs.xyz/claire/tokyo/DSC05244.jpg', 'Sake containers'],
+    ['http://kibs.xyz/claire/tokyo/DSC05247.jpg', 'Another gate']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.702244,35.674227]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tokyo Metropolitan Government Building",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [['http://kibs.xyz/claire/tokyo/DSC05262.JPG', 'View from the very top of the building, free admission']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.692101,35.689634]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Akihabara",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [['http://kibs.xyz/claire/tokyo/DSC05284.jpg', 'District famous for its electronic shops and otaku culture']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.774146,35.702205]
+  }
+},{
+  "type": "Feature",
+  "properties": {
+    "title": "Don Quijote Asakusa",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1480.jpg', 'This Don Quijote (the best place for snacks!) has most of the flavors of Kit Kats']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.793,35.714]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Hamakatsu",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1489.jpg', 'Tonkatsu restaurant - located in Yodobashi-Akiba building <br> ¥1500 each set']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.775,35.698]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Sushi Dai",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/GPTempDownload.JPG', 'Located in the Tsujiki Fish Market, ~1.5 hour wait (lucky for this place!). Only open for breakfast - lunch. ¥4000/person for 10 pieces of nigiri, rolls, egg, and miso-soup. Highly recommended! ']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.77,35.664]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ichiran (Shinbashi)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1522.jpg', 'Chain restaurant with individual cubbies to consume your ramen in. Definitely worth the experience, but not the best ramen in Tokyo.']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.758,35.667]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Caretta Shiodome",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [['http://kibs.xyz/claire/tokyo/DSC05323.jpg', 'Light display (seasonal?), with light show ~15 minutes. The theme at the time was Beauty and the Beast. Outside of a shopping mall.']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.762487,35.664880]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Afuri",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1534.jpg', 'Tsukemen (dipping ramen)'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1539.jpg', 'Exterior']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.7,35.645]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Meguro River",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1533.jpg', 'In cherry blossom season, this river area is covered with cherry blossoms. This photo was taken in winter, so no cherry blossoms were present :(']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.697,35.647]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Nissan Crossing",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "cafe",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1546.jpg', 'Photo printed latte art for ¥500. <br> On the top of the Nissan Crossing building, with Nissan cars on display throughout the building.']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.765,35.671]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Teke-Teke shibuya dogenzaka",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1557.jpg', 'Chicken wings <br>** note: this place does charge a ¥300 cover charge per person'],
+    ['http://kibs.xyz/claire/tokyo/skewers.JPG', 'Various skewered meats'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1560.jpg', 'Takoyaki']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.698,35.659884]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Mega Don Quijote (Shibuya)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1561.jpg', 'The Don Quijote in Shibuya also has a great selection of Kit Kats.']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.697668,35.660375]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kaoriya Soba (Ebisu)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/soba.JPG', 'Soba, tempura, and buckwheat rice <br> Total meal price (3 entrees): ¥4352'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1574.jpg', 'Egg roll']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.712,35.646]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Yona Yona",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "beer",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1578.jpg', 'Craft beers, small starting at ¥480']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.713,35.665]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Nanaya Matcha",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "cafe",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1581.jpg', 'Seven levels of matcha intensity gelato'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1586.jpg', 'Level 6. (The level 7 cost extra)']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.708,35.66]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ippudo (Shinjuku)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/ippudo.JPG', 'Chain ramen, one of my favorites']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.702,35.691]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Disney Store (Shibuya)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1613.jpg', 'Disney store - stock up on Japanese exclusive tsum tsums!']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.702,35.687]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tokyu Hands",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1614.jpg', 'Tokyu Hands is a massive store that sells a variety of stuff. Here\'s just some of the pens.']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.702,35.687]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Iroha Sushi",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1617.jpg', 'Variety of sushi, meal cost with drinks (4 people): ~¥8600']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.697,35.647]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Daily Chico",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "cafe",
+    "images": [['http://kibs.xyz/claire/tokyo/icecream.JPG', '8 flavor soft serve <br> Top to bottom: Ramune, chocolate, sweet potato, strawberry, vanilla, black sesame, matcha <br> ¥490'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1644.jpg', 'Located in the bottom level of the Nakano Broadway Mall']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.666,35.708]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Udon Yamacho",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [['http://kibs.xyz/claire/tokyo/IMG_1658.jpg', 'Curry udon with beef (highly recommended!)'],
+    ['http://kibs.xyz/claire/tokyo/IMG_1663.jpg', 'Exterior']]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.711,35.648]
+  }
+},
+
+
+
+
+
+  ]
 };
 
 
@@ -563,6 +907,7 @@ myLayer.on('layeradd', function(e) {
     });
 });
 
+
 // Add features to the map
 myLayer.setGeoJSON(geoJson);
 
@@ -587,15 +932,19 @@ $('#map').on('click', '.popup .cycle a', function() {
     return false;
 });
 
-map.setView([50.101719, 10.729668], 5);
+map.setView([37.701139, 65.094817], 3);
 document.getElementById('navigation').onclick = function(e) {
     e.preventDefault();
     var pos = e.target.getAttribute('data-position');
+    var zoom = e.target.getAttribute('zoom');
     if (pos) {
         var loc = pos.split(',');
-        map.setView(loc, 14);
+        map.setView(loc, zoom);
     }
 }
+
+
+
 </script>
 </body>
 </html>
