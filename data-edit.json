@@ -1,0 +1,2368 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.412103,
+      52.515691
+    ]
+  },
+  "properties": {
+    "title": "Holiday Inn Express Alexanderplatz",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "lodging",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_1902.JPG",
+        "The room"
+      ],
+      [
+        "http://kibs.xyz/claire/hotelview.JPG",
+        "View from the room"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hampton by Hilton Berlin City West",
+    "title": "Hampton by Hilton Berlin City West",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "lodging",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2230.JPG",
+        "The room"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.325888,
+      52.505000
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.431860,
+      52.502020
+    ]
+  },
+  "properties": {
+    "title": "Markthalle Neun",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2009.JPG",
+        "Bone.Berlin <br> Sausage stew"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2010.JPG",
+        "Rosa Canina Ice Cream <br> Currant ice cream: €1.40"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.405167,
+      52.516608
+    ]
+  },
+  "properties": {
+    "title": "Georgbraeu Brauhaus",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_1905.JPG",
+        "Restaurant is located near the water in the Nikolaivertel"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_1908.JPG",
+        "Half roasted duck with red cabbage and potato dumplings: €14.90"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.336893,
+      52.515164
+    ]
+  },
+  "properties": {
+    "title": "Tiergartenquelle",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/spatzle.JPG",
+        "Cheese spatzle: €9.50"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_1946.JPG",
+        "Crispy pork knuckle, sauerkraut & pan fried potatoes: €12"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.377704,
+      52.516275
+    ]
+  },
+  "properties": {
+    "title": "Brandenburg Gate",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05388.JPG",
+        "Crowded all the time"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.390391,
+      52.507443
+    ]
+  },
+  "properties": {
+    "title": "Checkpoint Charlie",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/checkpoint.JPG",
+        "Checkpoint Charlie"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.413084,
+      52.522320
+    ]
+  },
+  "properties": {
+    "title": "Alexanderplatz",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_1981.JPG",
+        "Square with shops, and \"Grillrunners\" selling bratwursts in a bun for €1.70"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.401078,
+      52.519061
+    ]
+  },
+  "properties": {
+    "title": "Berlin Cathedral Church",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05407.JPG",
+        "Massive church"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.409419,
+      52.520815
+    ]
+  },
+  "properties": {
+    "title": "Berliner Fernsehturm",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tvtower.JPG",
+        "TV Tower"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.439695,
+      52.505022
+    ]
+  },
+  "properties": {
+    "title": "East Side Gallery",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "art-gallery",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05514.JPG",
+        "On the ground"
+      ],
+      [
+        "http://kibs.xyz/claire/DSC05524.JPG",
+        "Iconic mural"
+      ],
+      [
+        "http://kibs.xyz/claire/DSC05530.JPG",
+        "One of the newer murals"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.392670,
+      52.513722
+    ]
+  },
+  "properties": {
+    "title": "Gendarmenmarkt",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_1932.JPG",
+        "Beautiful square near Potsdamer Platz"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.376187,
+      52.518620
+    ]
+  },
+  "properties": {
+    "title": "Reichstag Building",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_1412.JPG",
+        "Inside the dome, reservations required"
+      ],
+      [
+        "http://kibs.xyz/claire/DSC05439.JPG",
+        "Inside the dome, reservations required"
+      ],
+      [
+        "http://kibs.xyz/claire/DSC05456.JPG",
+        "On the balcony, reservations required"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.350119,
+      52.514543
+    ]
+  },
+  "properties": {
+    "title": "Victory Column",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05422.JPG",
+        "At night"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.369402,
+      52.525084
+    ]
+  },
+  "properties": {
+    "title": "Berlin Hauptbahnhof",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "rail-metro",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2042.JPG",
+        "Main railway station for Prague train and TXL bus connection"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.46,
+      52.513
+    ]
+  },
+  "properties": {
+    "title": "Kreutzigerstraße Mural",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2007.JPG",
+        "Colorful murals"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.378,
+      52.514
+    ]
+  },
+  "properties": {
+    "title": "Memorial to the Murdered Jews of Europe",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_1922.JPG",
+        "Block-long memorial"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.39,
+      52.508
+    ]
+  },
+  "properties": {
+    "title": "Die Bude",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "fast-food",
+    "images": [
+      [
+        "http://kibs.xyz/claire/currywurst.JPG",
+        "Currywurst with Fries: €4.50"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.39,
+      52.515
+    ]
+  },
+  "properties": {
+    "title": "Ritter Sport Chocolate Store",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/ritter.JPG",
+        "Pick and Mix: €1.49/100g"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2239.JPG",
+        "One wall of selections: €1.05-1.29 for a 100g bar"
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Hilton Prague",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "lodging",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2128.JPG",
+        "Treats at the executive lounge"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2129.JPG",
+        "Treats at the executive lounge"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2130.JPG",
+        "Treats at the executive lounge"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2218.JPG",
+        "Treats at the executive lounge"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2219.JPG",
+        "Treats at the executive lounge"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.439732,
+      50.092952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Wenceslas Square",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05657.JPG",
+        "Shops and small vendors"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.427189,
+      50.081747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Dancing House",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05569.JPG",
+        "Famous piece of architecture"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.414179,
+      50.075403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Charles Bridge",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05644.JPG",
+        "Walking on the bridge"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.411437,
+      50.086477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Lennon Wall",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "art-gallery",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2148.JPG",
+        "Wall of graffiti"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.406792,
+      50.086251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "La Republica",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2124.JPG",
+        "Pilsner beef goulash with bread dumplings: 235 czk"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2125.JPG",
+        "Duck breast confit with potato pancakes: 269 czk"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.431,
+      50.089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "U Magistra Kelly",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05597.JPG",
+        "Exterior"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2165.JPG",
+        "Smoked duck breast with honey mustard dressing: 139 czk"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2166.JPG",
+        "Angus beef goulash: 119 czk"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2167.JPG",
+        "Grilled pork knuckle: 219 czk"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.397784,
+      50.087588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "TRDELNIK",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "bakery",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2187.JPG",
+        "Chimney cake at Republic Square: 60 czk"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.429,
+      50.088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Republic Square",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2099.JPG",
+        "Square with vendors and tram crossing"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.428,
+      50.088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Havelské tržiště Market",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2114.JPG",
+        "Market selling souviners and produce"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2111.JPG",
+        "Market selling souviners and produce"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.428,
+      50.088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kafka Statue",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/kafka.JPG",
+        "Franz Kafka"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.421,
+      50.09
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kafka Monument",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/IMG_2118.JPG",
+        "Rotating head"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.421,
+      50.081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kafka Museum",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "museum",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05621.JPG",
+        "Outside the Kafka Museum"
+      ],
+      [
+        "http://kibs.xyz/claire/DSC05622.JPG",
+        "Peeing Statue"
+      ],
+      [
+        "http://kibs.xyz/claire/IMG_2173.JPG",
+        "Pothole cover"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.410508,
+      50.087955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kaiser Wilhem Memorial Church",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/DSC05670.JPG",
+        "Juxtaposition of old and new"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.335082,
+      52.504818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Hayashi",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1428.jpg",
+        "Ramen - ¥1100"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1429.jpg",
+        "Exterior"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.698,
+      35.657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Gyoza no Fukuko Meguro",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1437.jpg",
+        "Gyoza, beansprout w/ meat, tofu, roasted garlic"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/gyoza.JPG",
+        "Lots of gyoza!"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1445.jpg",
+        "Exterior"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.695,
+      35.647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kagetsudo",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "bakery",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1455.jpg",
+        "Melonpan bun - 3 for ¥600"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/purpleyam.JPG",
+        "Purple sweet potato - ¥300"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1456.jpg",
+        "Exterior"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1459.jpg",
+        "Sign"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1461.jpg",
+        "Menu - melonpan buns and ice cream"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.795,
+      35.715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tsukushi Okonomiyaki",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1465.jpg",
+        "Japanese pancake \"Okonomiyaki\" - ¥1512 for both"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.794,
+      35.713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Meiji Jingu Shrine",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05242.jpg",
+        "Entrance to the shrine area"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05244.jpg",
+        "Sake containers"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05247.jpg",
+        "Another gate"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.702244,
+      35.674227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tokyo Metropolitan Government Building",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "camera",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05262.JPG",
+        "View from the very top of the building, free admission"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.692101,
+      35.689634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Akihabara",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05284.jpg",
+        "District famous for its electronic shops and otaku culture"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.774146,
+      35.702205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Don Quijote Asakusa",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1480.jpg",
+        "This Don Quijote (the best place for snacks!) has most of the flavors of Kit Kats"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.793,
+      35.714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Hamakatsu",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1489.jpg",
+        "Tonkatsu restaurant - located in Yodobashi-Akiba building <br> ¥1500 each set"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.775,
+      35.698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Sushi Dai",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/GPTempDownload.JPG",
+        "Located in the Tsujiki Fish Market, ~1.5 hour wait (lucky for this place!). Only open for breakfast - lunch. ¥4000/person for 10 pieces of nigiri, rolls, egg, and miso-soup. Highly recommended!"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi1.JPG",
+        "Nigiri #1 - Tuna <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi2.JPG",
+        "Nigiri #2 <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi3.JPG",
+        "Nigiri #3 <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi4.JPG",
+        "Nigiri #4 - Sea Urchin <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi5.JPG",
+        "Nigiri #5 - Horse mackerel <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi6.JPG",
+        "Nigiri #6 <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi7.JPG",
+        "Nigiri #7 - Tuna <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi8.JPG",
+        "Nigiri #8 <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushi9.JPG",
+        "Nigiri #9 <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/roll.JPG",
+        "Roll <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushidai3.JPG",
+        "Egg and miso soup <br> Part of the omakase \"trust the chef\" menu"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushidai.JPG",
+        "Seating arrangement"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushidai2.JPG",
+        "Our chef preparing our sushi"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/sushichef.JPG",
+        "Sushi chef, my brother, and I"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.77,
+      35.664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ichiran (Shinbashi)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1522.jpg",
+        "Chain restaurant with individual cubbies to consume your ramen in. Definitely worth the experience, but not the best ramen in Tokyo."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.758,
+      35.667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Caretta Shiodome",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05323.jpg",
+        "Light display (seasonal?), with light show ~15 minutes. The theme at the time was Beauty and the Beast. Outside of a shopping mall."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.762487,
+      35.664880
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Afuri",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1534.jpg",
+        "Tsukemen (dipping ramen)"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1539.jpg",
+        "Exterior"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.7,
+      35.645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Meguro River",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1533.jpg",
+        "In cherry blossom season, this river area is covered with cherry blossoms. This photo was taken in winter, so no cherry blossoms were present :("
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.697,
+      35.647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Nissan Crossing",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "cafe",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1546.jpg",
+        "Photo printed latte art for ¥500. <br> On the top of the Nissan Crossing building, with Nissan cars on display throughout the building."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.765,
+      35.671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Teke-Teke shibuya dogenzaka",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1557.jpg",
+        "Chicken wings <br>** note: this place does charge a ¥300 cover charge per person"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/skewers.JPG",
+        "Various skewered meats"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1560.jpg",
+        "Takoyaki"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.698,
+      35.659884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Mega Don Quijote (Shibuya)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1561.jpg",
+        "The Don Quijote in Shibuya also has a great selection of Kit Kats."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.697668,
+      35.660375
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Kaoriya Soba (Ebisu)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/soba.JPG",
+        "Soba, tempura, and buckwheat rice <br> Total meal price (3 entrees): ¥4352"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1574.jpg",
+        "Egg roll"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.712,
+      35.646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Yona Yona",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "beer",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1578.jpg",
+        "Craft beers, small starting at ¥480"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.713,
+      35.665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Nanaya Matcha",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "ice-cream",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1581.jpg",
+        "Seven levels of matcha intensity gelato"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1586.jpg",
+        "Level 6. (The level 7 cost extra)"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.708,
+      35.66
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ippudo (Shinjuku)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/ippudo.JPG",
+        "Chain ramen, one of my favorites"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.702,
+      35.691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Disney Store (Shibuya)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1613.jpg",
+        "Disney store - stock up on Japanese exclusive tsum tsums!"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.702,
+      35.687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tokyu Hands",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1614.jpg",
+        "Tokyu Hands is a massive store that sells a variety of stuff. Here\"s just some of the pens."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.702,
+      35.687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Iroha Sushi",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1617.jpg",
+        "Variety of sushi, meal cost with drinks (4 people): ~¥8600"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.697,
+      35.647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Daily Chico",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "ice-cream",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/icecream.JPG",
+        "8 flavor soft serve <br> Top to bottom: Ramune, chocolate, sweet potato, strawberry, vanilla, black sesame, matcha <br> ¥490"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1644.jpg",
+        "Located in the bottom level of the Nakano Broadway Mall"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.666,
+      35.708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Udon Yamacho",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1658.jpg",
+        "Curry udon with beef (highly recommended!)"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/IMG_1663.jpg",
+        "Exterior"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.711,
+      35.648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ueno Park",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "garden",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/ueno.JPG",
+        "Nearby a lagoon"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/ueno2.JPG",
+        "Pink lights on the trees"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.774079,
+      35.714071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Harajuku / Takeshita Street",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "shop",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05223.jpg",
+        "Main street of Harajuku with shops"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05236.jpg",
+        "Crepe display"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.703163,
+      35.671566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Asakusa Shrine",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05273.ARW.jpg",
+        "Main shrine"
+      ],
+      [
+        "http://kibs.xyz/claire/tokyo/DSC05276.jpg",
+        "Main shrine"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.797455,
+      35.715082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Hikare Building (Shibuya)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "camera",
+    "images": [
+      [
+        "http://kibs.xyz/claire/tokyo/shibuya.JPG",
+        "View of Shibuya Crossing from the Hikare building"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      139.703473,
+      35.659025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Tamsui",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/tamshui.JPG",
+        "Area with shops"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/fishball.JPG",
+        "Fish ball soup - 35 NT"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1209.jpg",
+        "Exterior of fish ball place"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.444,
+      25.168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Wulao",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_0115.jpg",
+        "Hotpot, ~$20 USD per person but good! Unlimited refill of tofu skin and pork blood"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/peach.JPG",
+        "Peach vinegar drink to cut the grease"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.54,
+      25.045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Fu Hang Dou Jiang",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1232.jpg",
+        "Hot sweet soymilk, egg sandwich, egg pancake. Total cost NT 170"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1220.jpg",
+        "Long line, goes down the stairs and outside the mall. Be prepared to wait!"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1218.jpg",
+        "Making their \" signature thick bread.\""
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.525,
+      25.044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Elephant Mountain (Hike)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "camera",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/elephantmtn.JPG",
+        "About 20 minutes to get to the top. All uphill stairs."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.576499,
+      25.027223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ay-Chung Flour Rice Noodle",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/Capture.JPG",
+        "Popular noodles in the Ximending district <br>Seafood tasting, thick goopy noodles. <br> 70 NT for a large"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1243.jpg",
+        "Exterior "
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.508,
+      25.043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Ningxia Night Market",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/nightmarket.JPG",
+        "About a block long"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1255.jpg",
+        "Deep fried stinky tofu, 50 NT"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1254.jpg",
+        "Sausage wrapped in a bun made of sticky rice, 60 NT"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/bacon.JPG",
+        "Green onion wrapped with bacon, 10 NT each"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.516,
+      25.057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "冰霖古早味豆花",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/matcha.JPG",
+        "Matcha milk snow with red bean and mochi - 120 NT <br> Dessert shop is around the corner from the Ningxia Night Market"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/milksnow.JPG",
+        "Peanut snow"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.515,
+      25.057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Niu Kong Kuan",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1349.jpg",
+        "Beef noodles, each NT 200 <br> Spicy wontons, NT 100"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1344.jpg",
+        "Exterior"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.506,
+      25.043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Wu Pao Chun",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "bakery",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1374.jpg",
+        "Bakery located inside Songshan Creative Park"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/eggtart.JPG",
+        "Very generous samples ... the egg tarts are really good!"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/bread.JPG",
+        "Another sample"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1376.jpg",
+        "Tried this, really good and unique!"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.561,
+      25.044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Sun Yat-Sen Memorial",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1385.jpg",
+        "Sun Yat-Sen"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1396.jpg",
+        "Outside, facing Taipei 101"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.56,
+      25.04
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Linjiang Street Night Market",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/nightmarket2.JPG",
+        "Night market"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1335.jpg",
+        "35 NT each"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.554,
+      25.03
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "TP Tea",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "cafe",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1326.jpg",
+        "One of the best milk tea chains"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.557,
+      25.029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "I Love Bow",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "bakery",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/matchawaffle.JPG",
+        "Matcha bubble waffle, 70 NT"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.546264,
+      25.042629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Raohe Street Night Market",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1409.jpg",
+        "Entrance"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1413.jpg",
+        "Milk snow with mango"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.575,
+      25.05
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Dalong Market",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1420.jpg",
+        "Sweet (white) dragonfruit. The price can change daily, ~25-60 NT "
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.516,
+      25.072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Chiang Kai-shek Memorial Hall",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1277.jpg",
+        "Chiang Kai-shek"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1274.jpg",
+        "Outside"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1275.jpg",
+        "Outside"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1293.jpg",
+        "From the top of the stairs"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1281.jpg",
+        "Guard - does not move or blink for one hour"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.522,
+      25.035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "民樂旗魚米粉",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1262.jpg",
+        "Pork cutlet, fish cake (mochi-like texture), rice noodles"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/IMG_1265.jpg",
+        "Exterior"
+      ],
+      [
+        "http://kibs.xyz/claire/taipei/noodle.JPG",
+        "From the place next to it"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.51,
+      25.054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Passeggiata del Pincio",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "camera",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/promenade.jpg",
+        "Great view, if you keep walking after you see the Spanish Steps"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.479593,
+      41.911358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Piazza Di Spagna",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/piazza.jpg",
+        "The piazza connecting to the Spanish Steps. If you\"re jetlagged while in Rome - take advantage! This is the piazza ~ 6 am. Barely anyone but birds."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.482327,
+      41.905698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Spanish Steps",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/steps2.jpg",
+        "From the top of the steps, in the middle of the day in August"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/steps.JPG",
+        "Steps all to myself around 6am!"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.482775,
+      41.905990
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Punto Gelato (near Piazza di S. Eustachio)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "ice-cream",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/punto3.JPG",
+        "Gelato (extra dark chocolate & prickly pear)"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/punto4.JPG",
+        "Exterior"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/punto1.JPG",
+        "Some of the flavors"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/punto2.JPG",
+        "More flavors"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.475369,
+      41.89843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Colosseum",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/colosseum.jpg",
+        "A must see (obviously)"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.492231,
+      41.890210
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Pantheon",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/pantheon.jpg",
+        "Exterior"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.476873,
+      41.898611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Chiesa di Sant Ignazio di Loyola",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "place-of-worship",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/ignazio2.jpg",
+        "One of the unique things about this church is the optical illusions - this is a painting, not an actual dome"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/ignazio.jpg",
+        "Another optical illusion - the painted hand near the window"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.479869,
+      41.898753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Altar of the Fatherland",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/altar.jpg",
+        "Absolutely massive"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/altar2.jpg",
+        "There is a view if you walk up the stairs - but make sure you go when it is open..."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.483108,
+      41.894611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "St Peter's Basilica",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "place-of-worship",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/stpeters.jpg",
+        "Exterior"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/stpeters2.jpg",
+        "Go as early in the morning as possible. No line + less crowded = better visiting experience."
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.453937,
+      41.902167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Piazza Navona",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/navona.jpg",
+        "A beautiful square, but many people, always"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.473074,
+      41.899163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Trevi Fountain",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "monument",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/trevi.jpg",
+        "Larger than it appears in pictures"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/trevi2.jpg",
+        "The fountain and I"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.483313,
+      41.900933
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "St Maria Sopra Minerva Basilica",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "place-of-worship",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/church.JPG",
+        "Church near the Pantheon with a beautiful ceiling"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.478023,
+      41.897989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Il Corallo",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "restaurant",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/ilcorallo2.jpg",
+        "Fettucine with bacon and shaved black truffle - €14"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/ilcorallo.jpg",
+        "Pizza with proscuitto - €9"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.469962,
+      41.899081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Fatamorgana (Trastevere)",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "ice-cream",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/fata2.jpg",
+        "Just some of the selections"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/fata3.jpg",
+        "Fior di latte (a must try flavor) and passionfruit"
+      ],
+      [
+        "http://kibs.xyz/claire/rome/fata.jpg",
+        "Chocolate and pistachio"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.469187,
+      41.886506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Daphne Rome B&B",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "lodging",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/bfast.JPG",
+        "Breakfast. A great B&B that is just a 5 minute walk from the Trevi Fountain"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.487694,
+      41.903136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "title": "La Casa Del Caffè Tazza D'oro",
+    "marker-color": "#3c4e5a",
+    "marker-symbol": "cafe",
+    "images": [
+      [
+        "http://kibs.xyz/claire/rome/granita.jpg",
+        "Coffee granita - heaven in a cup. The best thing I ate while in Rome (even better than gelato!!!). Right near the Pantheon"
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.477407,
+      41.899434
+    ]
+  }
+}]
+}
