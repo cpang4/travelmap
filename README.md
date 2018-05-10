@@ -4,4 +4,4 @@ Click on a marker for pictures I took at those locations.
 _Two versions - using Google Maps API and Mapbox API_   
 
 Google Maps: [https://cpang4.github.io/travelmap/](https://cpang4.github.io/travelmap/)   
-MapBox: [[https://cpang4.github.io/travelmap/mapbox](https://cpang4.github.io/travelmap/mapbox)
+MapBox: [https://cpang4.github.io/travelmap/mapbox](https://cpang4.github.io/travelmap/mapbox)
