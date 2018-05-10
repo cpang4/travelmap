@@ -1357,7 +1357,7 @@
     "images": [
       [
         "http://kibs.xyz/claire/tokyo/IMG_1614.jpg",
-        "Tokyu Hands is a massive store that sells a variety of stuff. Here\"s just some of the pens."
+        "Tokyu Hands is a massive store that sells a variety of stuff. Here's just some of the pens."
       ]
     ]
   },
@@ -1574,7 +1574,7 @@
     "images": [
       [
         "http://kibs.xyz/claire/taipei/IMG_0115.jpg",
-        "Hotpot, ~$20 USD per person but good! Unlimited refill of tofu skin and pork blood"
+        "Hotpot, ~$20 USD per person but good! <br> Unlimited refill of tofu skin and pork blood"
       ],
       [
         "http://kibs.xyz/claire/taipei/peach.JPG",
@@ -1599,11 +1599,11 @@
     "images": [
       [
         "http://kibs.xyz/claire/taipei/IMG_1232.jpg",
-        "Hot sweet soymilk, egg sandwich, egg pancake. Total cost NT 170"
+        "Hot sweet soymilk, egg sandwich, egg pancake. <br> Total cost NT 170"
       ],
       [
         "http://kibs.xyz/claire/taipei/IMG_1220.jpg",
-        "Long line, goes down the stairs and outside the mall. Be prepared to wait!"
+        "Long line, goes down the stairs and outside the mall. <br>Be prepared to wait!"
       ],
       [
         "http://kibs.xyz/claire/taipei/IMG_1218.jpg",
@@ -2364,5 +2364,190 @@
       41.899434
     ]
   }
-}]
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Albert Cuyp Market",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/acup3.jpg", "Farmer's market/shopping area <br> Flower stand"],
+		["http://kibs.xyz/claire/amsterdam/acup.jpg", "Farmer's market/shopping area <br> Fresh juices"],
+		["http://kibs.xyz/claire/amsterdam/acup2.jpg", "Farmer's market/shopping area <br> Poffertjes (small puffy pancakes)"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8931984,52.3559673]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Bakhuys",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/bakhuys2.jpg", "Best bakery in Amsterdam <br> Best thing on the menu - ham and cheese crossiant"],
+		["http://kibs.xyz/claire/amsterdam/bakhuys.jpg", "Back more than once"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.9046568,52.3610963]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Bloemenmarkt",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "local_florist",
+		"images": [["http://kibs.xyz/claire/amsterdam/flower3.jpg", "\"Floating flower market\""],
+		["http://kibs.xyz/claire/amsterdam/flower4.jpg", "Bulbs for sale"],
+		["http://kibs.xyz/claire/amsterdam/flower2.jpg", "Hanging dried flower wall at one of the end stands"],
+		["http://kibs.xyz/claire/amsterdam/flower.jpg", "Hanging dried flower wall at one of the end stands"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.88912,52.3668379]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Van Gogh Museum",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "palette",
+		"images": [["http://kibs.xyz/claire/amsterdam/vangogh.jpg", "Exterior"],
+		["http://kibs.xyz/claire/amsterdam/gogh.JPG", "Favorite painting - \"Almond Blossom\""]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8788869,52.3584159]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Frens Haringhandel",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/herring.jpg", "Herring stand"],
+		["http://kibs.xyz/claire/amsterdam/herring2.JPG", "Selections"],
+		["http://kibs.xyz/claire/amsterdam/herring3.JPG", "Sandwiches - Herring (left), Kipper (right)"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.887242,52.3672912]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Hyatt Regency Amsterdam",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "hotel",
+		"images": [["http://kibs.xyz/claire/amsterdam/hyatt.jpg", "The room"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.90963,52.3617751]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "I Amsterdam Sign",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/amsterdam/iam.jpg", "Me and a random person"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8818806,52.359128]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Kantjil & De Tijger",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/kant1.jpg", "Indonesian food - Nasi Rames"],
+		["http://kibs.xyz/claire/amsterdam/kant2.jpg", "Daging smoor (beef braised in sweet soy sauce) and garlic noodles"],
+		["http://kibs.xyz/claire/amsterdam/kant3.jpg", "Other side of Nasi Rames plate"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8867001,52.3692317]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Foodhallen",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/market2.jpg", "Food court - Bitterballen"],
+		["http://kibs.xyz/claire/amsterdam/market.jpg", "Perfectly grilled thin steak sliced, from a French stand"],
+		["http://kibs.xyz/claire/amsterdam/foodhallen.JPG", "The burger stand"],
+		["http://kibs.xyz/claire/amsterdam/foodhallen2.JPG", "Burger description"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.865887,52.3670621]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Lucca Due",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/pasta.JPG", "Carbonara and seafood pasta"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8879216,52.3811207]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Metropolitan",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/poffertj.jpg", "Blood orange ice cream and poffertjies"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8940047,52.3738151]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Vinnie's",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/vinnies.JPG", "Brunch"],
+		["http://kibs.xyz/claire/amsterdam/vinnies2.jpg", "Coffee"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8916394,52.3761425]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Vlaams Friteshuis Vleminckx",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/amsterdam/fries.JPG", "Fries with signature mayo"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.8888175,52.3678992]
+	}
+}
+]
 }
