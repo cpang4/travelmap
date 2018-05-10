@@ -83,7 +83,9 @@ function initMap() {
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 3,
-    center: {lat: 37.701139, lng: 65.094817}
+    center: {lat: 37.701139, lng: 65.094817},
+    fullscreenControl: false,
+    streetViewControl: false
   });
 
   map.data.loadGeoJson('data-edit.json', null, function (features) {
