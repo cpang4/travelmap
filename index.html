@@ -64,12 +64,14 @@ html, body {
 
 <div id="map"></div>
 <div id='navigation' class='menu-ui'>
-  <a href='#' data-position='50.086157,14.416482' zoom='14'>Prague</a>
+  <a href="#" data-position='52.365390, 4.893023', zoom ='14'>Amsterdam</a>
   <a href='#' data-position='52.513722,13.392670' zoom='13.5'>Berlin</a>
+  <a href="#" data-position='50.8666431,4.3393371' zoom='13'>Brussels</a>
+  <a href='#' data-position='50.086157,14.416482' zoom='14'>Prague</a>
+  <a href='#' data-position='41.900933, 12.483313', zoom='14'>Rome</a>
+  <a href="#" data-position='51.914678,4.468258', zoom='14'>Rotterdam</a>
   <a href='#' data-position='35.686403, 139.737714' zoom='12.8'>Tokyo</a>
   <a href='#' data-position='25.097850, 121.517025', zoom='12'>Taipei</a>
-  <a href='#' data-position='41.900933, 12.483313', zoom='14'>Rome</a>
-  <a href="#" data-position='52.365390, 4.893023', zoom ='14'>Amsterdam</a>
 </div>
 <!-- Replace the value of the key parameter with your own API key. -->
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
@@ -148,7 +150,7 @@ function initMap() {
     });
 
     var markerCluster = new MarkerClusterer(map, markers,
-      { maxZoom:15, imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+      { maxZoom:14, imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 });
 

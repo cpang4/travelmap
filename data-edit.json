@@ -2548,6 +2548,335 @@
 		"type": "Point",
 		"coordinates": [4.8888175,52.3678992]
 	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Euromast",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/rotterdam/euromast2.JPG", "Observation tower"],
+		["http://kibs.xyz/claire/rotterdam/euromast.jpg", "Observation deck"],
+		["http://kibs.xyz/claire/rotterdam/euromast3.jpg", "View from the top"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.4644487,51.9054439]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Cube Houses",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/rotterdam/cube.jpg", "Rotated cubes"],
+		["http://kibs.xyz/claire/rotterdam/cube2.jpg", "Rotated cubes"],
+		["http://kibs.xyz/claire/rotterdam/cube3.jpg", "Inside the cube house"],
+		["http://kibs.xyz/claire/rotterdam/cube4.jpg", "View from inside cube house window"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.4885137,51.920158]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Hilton Rotterdam",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "hotel",
+		"images": [["http://kibs.xyz/claire/rotterdam/hilton3.jpg", "View from room"],
+		["http://kibs.xyz/claire/rotterdam/hilton2.JPG", "Treats in the executive lounge"],
+		["http://kibs.xyz/claire/rotterdam/hilton.JPG", "View from room"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.474881,51.9235172]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Markthal",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/rotterdam/market5.jpg", "Massive market hall"],
+		["http://kibs.xyz/claire/rotterdam/market.jpg", "Massive market hall"],
+		["http://kibs.xyz/claire/rotterdam/market7.jpg", "Inside"],
+		["http://kibs.xyz/claire/rotterdam/market3.jpg", "Mural on ceiling"],
+		["http://kibs.xyz/claire/rotterdam/market6.jpg", "Inside"],
+		["http://kibs.xyz/claire/rotterdam/market8.jpg", "Spices"],
+		["http://kibs.xyz/claire/rotterdam/market9.jpg", "Fruits"],
+		["http://kibs.xyz/claire/rotterdam/market2.jpg", "Pastries"],
+		["http://kibs.xyz/claire/rotterdam/market4.jpg", "Meal from Royal Fish"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.487326,51.920249]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Jamie Oliver's Italian",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/rotterdam/pasta.jpg", "Located inside the Markthal <br> Amazing truffle tagliatelle!!! <br> I think about this dish everyday. <br>€15 for 2 pasta dishes"],
+		["http://kibs.xyz/claire/rotterdam/pasta2.jpg", "Amazing tagliatelle bolognese"],
+		["http://kibs.xyz/claire/rotterdam/pasta3.jpg", "Carbonara"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.486711,51.920355]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Centraal Station",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "train",
+		"images": [["http://kibs.xyz/claire/rotterdam/station.JPG", "Outside"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.4683077,51.9236772]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Grand Place",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/brussels/grand.jpg", "Beautiful square"],
+		["http://kibs.xyz/claire/brussels/grand3.jpg", "Beautiful square"],
+		["http://kibs.xyz/claire/brussels/grand2.jpg", "At night"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3502251,50.8467316]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Galler Chocolatier",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "shopping_cart",
+		"images": [["http://kibs.xyz/claire/brussels/galler.jpg", "One of many chocolate brands"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3502251,50.8467316]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Atomium",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/brussels/atomium.jpg", "Sculpture - free to see, pay to go inside"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3393583,50.894941]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Mini-Europe",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/brussels/mini.jpg", "Park with miniatures of European landmarks <br> Grand Place (Brussels)"],
+		["http://kibs.xyz/claire/brussels/mini2.jpg", "Eiffel Tower"],
+		["http://kibs.xyz/claire/brussels/mini3.jpg", "Versailles (?)"],
+		["http://kibs.xyz/claire/brussels/mini4.jpg", "Basilica De Sacre Coeur (Paris)"],
+		["http://kibs.xyz/claire/brussels/mini5.jpg", "Big Ben (London)"],
+		["http://kibs.xyz/claire/brussels/mini6.jpg", "Brandenburg Tor / Berlin Wall (Berlin)"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3393583,50.894941]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Le Botanique",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "local_florist",
+		"images": [["http://kibs.xyz/claire/brussels/obs4.jpg", "Cultural center / park"],
+		["http://kibs.xyz/claire/brussels/obs3.jpg", "Cultural center / park"],
+		["http://kibs.xyz/claire/brussels/obs2.jpg", "Cultural center / park"],
+		["http://kibs.xyz/claire/brussels/obs.jpg", "Cultural center / park"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3613775,50.8549177]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Fin de siŠcle",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/brussels/fin.jpg", "Carbonnade flamande (beef stewed in beer)"],
+		["http://kibs.xyz/claire/brussels/fin2.jpg", "Jambonneau (Pork knuckle)"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3449466,50.8489809]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Hilton Brussels City",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "hotel",
+		"images": [["http://kibs.xyz/claire/brussels/hilton4.jpg", "Exterior"],
+		["http://kibs.xyz/claire/brussels/hilton2.jpg", "View from the room"],
+		["http://kibs.xyz/claire/brussels/hilton3.jpg", "At sunset"],
+		["http://kibs.xyz/claire/brussels/hilton.jpg", "Hot chocolate from the lobby"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3575687,50.8557372]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Pin Pon",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/brussels/pin2.jpg", "Restaurant with a cute top rooftop seating area"],
+		["http://kibs.xyz/claire/brussels/pin3.jpg", "Bavette (flank steak) with cream sauce"],
+		["http://kibs.xyz/claire/brussels/pin.jpg", "Fish and chips"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3441824,50.8368214]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Royal Palace of Brussels / Palais de Bruxelles",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/brussels/royal.jpg", "Exterior - free to go in"],
+		["http://kibs.xyz/claire/brussels/royal2.jpg", "Inside"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3601906,50.8419582]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Mont des Arts",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "local_florist",
+		"images": [["http://kibs.xyz/claire/brussels/park.jpg", "Beautiful square/garden area"],
+		["http://kibs.xyz/claire/brussels/park2.jpg", "Trees"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3555072,50.8445311]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Manneken Pis",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/brussels/pis.jpg", "Statue of peeing boy"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.347801,50.8449936]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "De Noordzee",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/brussels/de4.jpg", "Seafood fast-food restaurant with outdoor standing eating area"],
+		["http://kibs.xyz/claire/brussels/de.jpg", "Mussels "],
+		["http://kibs.xyz/claire/brussels/de3.jpg", "Fried calamari and fish soup"],
+		["http://kibs.xyz/claire/brussels/de6.jpg", "Fried smelt"],
+		["http://kibs.xyz/claire/brussels/de5.jpg", "Escargot soup"],
+		["http://kibs.xyz/claire/brussels/de2.jpg", "Square (pouring rain at the time)"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3477474,50.8495594]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Bia Mara",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/brussels/bia.jpg", "Fish and chips"],
+		["http://kibs.xyz/claire/brussels/bia2.jpg", "Chicken and chips"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3485643,50.8486428]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Le Berlaymont",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "account_balance",
+		"images": [["http://kibs.xyz/claire/brussels/eu.jpg", "Exterior of govt office"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3802067,50.8435894]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Cinquantenaire",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "local_florist",
+		"images": [["http://kibs.xyz/claire/brussels/gate2.jpg", "Park with gate"],
+		["http://kibs.xyz/claire/brussels/gate.jpg", "Nearby"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3892538,50.8402996]
+	}
+},
+{
+	"type": "Feature",
+	"properties": {
+		"title": "Madame Chapeau (CLOSED)",
+		"marker-color": "#3c4e5a",
+		"marker-symbol": "restaurant",
+		"images": [["http://kibs.xyz/claire/brussels/madam.jpg", "Stoemp"],
+		["http://kibs.xyz/claire/brussels/madam2.jpg", "Stoemp"]]
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [4.3509241,50.8466788]
+	}
 }
 ]
 }
