@@ -71,11 +71,9 @@ html, body {
   <a href='#' data-position='41.900933, 12.483313', zoom='14'>Rome</a>
 </div>
 <!-- Replace the value of the key parameter with your own API key. -->
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2_1XsE0cOCAVUBbYSk14iqLsbVEGno7c&callback=initMap">
-</script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <script>
 function initMap() {
@@ -93,7 +91,10 @@ function initMap() {
 
     var markers = features.map(function (feature) {
         var g = feature.getGeometry();
-        var marker = new google.maps.Marker({ 'position': g.get(0) });
+        var marker = new google.maps.Marker({
+          position: g.get(0)
+          //label: {text: feature.getProperty("marker-symbol"), fontFamily: "Arial"}
+           });
 
 
         var images = feature.getProperty("images");
@@ -182,4 +183,7 @@ document.getElementById('navigation').onclick = function(e) {
 }
 
 }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2_1XsE0cOCAVUBbYSk14iqLsbVEGno7c&callback=initMap">
 </script>
