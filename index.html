@@ -76,7 +76,7 @@ html, body {
 <!-- Replace the value of the key parameter with your own API key. -->
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 
 <script>
 function initMap() {
@@ -94,11 +94,20 @@ function initMap() {
 
     var infowindow = null;
 
+      map.addListener('click', function(){
+        if (infowindow){
+          infowindow.close();
+        }
+      });
+
+    var currOpen = "";
+
     var markers = features.map(function (feature) {
         var g = feature.getGeometry();
         var marker = new google.maps.Marker({
-          position: g.get(0)
+          position: g.get(0),
           //label: {text: feature.getProperty("marker-symbol"), fontFamily: "Arial"}
+          title: feature.getProperty("title")
            });
 
 
@@ -144,7 +153,15 @@ function initMap() {
               maxWidth: 360
           });
 
-          infowindow.open(map, marker);
+          if (currOpen != feature.getProperty("title")){
+            infowindow.open(map, marker);
+            currOpen = feature.getProperty("title");
+          }
+
+          else if (currOpen === feature.getProperty("title")){
+            infowindow.close();
+            currOpen = "";
+          }
           
         });
 
