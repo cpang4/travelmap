@@ -104,6 +104,7 @@ function initMap() {
 
     var markers = features.map(function (feature) {
         var g = feature.getGeometry();
+
         var marker = new google.maps.Marker({
           position: g.get(0),
           //label: {text: feature.getProperty("marker-symbol"), fontFamily: "Arial"}
@@ -168,8 +169,13 @@ function initMap() {
         return marker;
     });
 
+
+
+    /*var markerCluster = new MarkerClusterer(map, markers,
+      { maxZoom:14, imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });*/
+
     var markerCluster = new MarkerClusterer(map, markers,
-      { maxZoom:14, imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+      { maxZoom:14, imagePath: 'images/m' });
 
 });
 
