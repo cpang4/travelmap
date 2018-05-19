@@ -88,11 +88,11 @@ function initMap() {
     streetViewControl: false
   });
 
+  var infowindow = null;
+
   map.data.loadGeoJson('data-edit.json', null, function (features) {
 
     map.data.setMap(null);
-
-    var infowindow = null;
 
       map.addListener('click', function(){
         if (infowindow){
@@ -203,6 +203,10 @@ $('#map').on('click', '.popup .cycle a', function() {
 document.getElementById('navigation').onclick = function(e) {
     var pos = e.target.getAttribute('data-position');
     var zoom = e.target.getAttribute('zoom');
+    if (infowindow){
+      infowindow.close();
+    }
+
     if (pos) {
         var loc = pos.split(',');
         map.setZoom(parseInt(zoom));
